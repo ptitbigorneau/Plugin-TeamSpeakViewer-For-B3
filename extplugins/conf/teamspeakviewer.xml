@@ -1,0 +1,34 @@
+<configuration plugin="teamspeakviewer">
+   
+    <settings name="settings">
+<!--Server Address-->
+        <set name="ts3adresse">localhost</set>
+<!--ts3 server connection address-->
+        <set name="ts3hostname">teamspeak.example.com</set>
+<!--admin name  -->
+        <set name="ts3admin">serveradmin</set>
+<!--admin password -->
+        <set name="ts3pwd">password</set>
+<!--port query-->
+        <set name="ts3portquery">10011</set>
+<!--virtualserver_id-->
+        <set name="ts3virtualserverid">1</set>
+<!--interval in minutes -->
+		<set name="interval">10</set>
+<!--min level required to use the ts3 command -->
+        <set name="ts3level">1</set>
+<!--message when there are people on the server ts3 -->
+<!--example fr 'Actuellement en ligne' -->
+<!--example en 'Currently Online' -->
+        <set name="ts3mess1">Actuellement en ligne</set>
+<!--message when there is nobody on the server ts3 -->
+<!--example fr 'Actuellement il n y a personne en ligne' -->
+<!--example en 'Currently there is no people online' -->
+        <set name="ts3mess2">Actuellement il n y a personne en ligne</set>
+<!--min level required to use the ts3actived command -->
+        <set name="ts3activedlevel">100</set>
+<!--teamspeakviewer messages on/off -->
+        <set name="ts3actived">on</set>
+    </settings>
+
+</configuration>

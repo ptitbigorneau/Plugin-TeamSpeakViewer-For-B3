@@ -10,20 +10,6 @@ from b3 import clients
 from ts3 import TS3Server
 from xml.etree.ElementTree import *
 
-_ts3adresse = "localhost"
-_ts3hostname = "teamspeak.example.com"
-_ts3admin = "serveradmin"
-_ts3pwd = "password"
-_ts3portquery = 10011
-_ts3virtualserverid = 1
-_interval = 10
-_ts3level = 1
-_ts3mess1 = "Currently Online"
-_ts3mess2 = "Currently there is no people online"
-_ts3activedlevel = 100
-_ts3actived = "on"
-
-
 def ts3test(adresse, ts3portquery, admin, pwd, id):
 
     try:
@@ -42,6 +28,19 @@ class TeamspeakviewerPlugin(b3.plugin.Plugin):
     _adminPlugin = None
     _cronTab = None
     
+    _ts3adresse = "localhost"
+    _ts3hostname = "teamspeak.example.com"
+    _ts3admin = "serveradmin"
+    _ts3pwd = "password"
+    _ts3portquery = 10011
+    _ts3virtualserverid = 1
+    _interval = 10
+    _ts3level = 1
+    _ts3mess1 = "Currently Online"
+    _ts3mess2 = "Currently there is no people online"
+    _ts3activedlevel = 100
+    _ts3actived = "on"
+
     def onStartup(self):
         
         self._adminPlugin = self.console.getPlugin('admin')

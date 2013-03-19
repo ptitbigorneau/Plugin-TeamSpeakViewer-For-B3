@@ -65,74 +65,74 @@ class TeamspeakviewerPlugin(b3.plugin.Plugin):
         try:
             self._ts3level = self.config.getint('settings', 'ts3level')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3level, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3level)
+            self.warning("Using default value %s for ts3level. %s" % (self._ts3level, err))
+        self.debug('ts3level : %s' % self._ts3level)
 
         try:
             self._ts3adresse = self.config.get('settings', 'ts3adresse')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3adresse, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3adresse)
+            self.warning("Using default value %s for ts3adresse. %s" % (self._ts3adresse, err))
+        self.debug('ts3adresse : %s' % self._ts3adresse)
 
         try:
             self._ts3hostname = self.config.get('settings', 'ts3hostname')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3hostname, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3hostname)
+            self.warning("Using default value %s for ts3hostname. %s" % (self._ts3hostname, err))
+        self.debug('ts3hostname : %s' % self._ts3hostname)
 
         try:
             self._ts3portquery = self.config.get('settings', 'ts3portquery')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3portquery, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3portquery)
+            self.warning("Using default value %s for ts3portquery. %s" % (self._ts3portquery, err))
+        self.debug('ts3portquery : %s' % self._ts3portquery)
 
         try:
             self._ts3virtualserverid = self.config.getint('settings', 'ts3virtualserverid')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3virtualserverid, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3virtualserverid)
+            self.warning("Using default value %s for ts3virtualserverid. %s" % (self._ts3virtualserverid, err))
+        self.debug('ts3virtualserverid : %s' % self._ts3virtualserverid)
 
         try:
             self._ts3admin = self.config.get('settings', 'ts3admin')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3admin, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3admin)
+            self.warning("Using default value %s for ts3admin. %s" % (self._ts3admin, err))
+        self.debug('ts3admin : %s' % self._ts3admin)
         
         try:
             self._ts3pwd = self.config.get('settings', 'ts3pwd')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3pwd, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3pwd)
+            self.warning("Using default value %s for ts3pwd. %s" % (self._ts3pwd, err))
+        self.debug('ts3pwd : *******' % self._ts3pwd)
 
         try:
             self._interval = self.config.getint('settings', 'interval')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._interval, err))
-        self.debug('Teamspeakviewer : %s' % self._interval)
+            self.warning("Using default value %s for interval. %s" % (self._interval, err))
+        self.debug('interval : %s' % self._interval)
 
         try:
             self._ts3mess1 = self.config.get('settings', 'ts3mess1')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3mess1, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3mess1)
+            self.warning("Using default value %s for ts3mess1. %s" % (self._ts3mess1, err))
+        self.debug('ts3mess1 : %s' % self._ts3mess1)
 
         try:
             self._ts3mess2 = self.config.get('settings', 'ts3mess2')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3mess2, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3mess2)
+            self.warning("Using default value %s for ts3mess2. %s" % (self._ts3mess2, err))
+        self.debug('ts3mess2 : %s' % self._ts3mess2)
 
         try:
             self._ts3actived = self.config.get('settings', 'ts3actived')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3actived, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3actived)
+            self.warning("Using default value %s for ts3actived. %s" % (self._ts3actived, err))
+        self.debug('ts3actived : %s' % self._ts3actived)
 
         try:
             self._ts3activedlevel = self.config.getint('settings', 'ts3activedlevel')
         except Exception, err:
-            self.warning("Using default value %s for Teamspeakviewer. %s" % (self._ts3activedlevel, err))
-        self.debug('Teamspeakviewer : %s' % self._ts3activedlevel)
+            self.warning("Using default value %s for ts3activedlevel. %s" % (self._ts3activedlevel, err))
+        self.debug('ts3activedlevel : %s' % self._ts3activedlevel)
     
     def ts3update(self):
 

@@ -1,7 +1,6 @@
 # teamspeakviewer plugin
 # Plugin for B3 (www.bigbrotherbot.com)
 # www.ptitbigorneau.fr
-
 ###############################################################################
 # Python TS3 Library (python-ts3)
 #
@@ -31,15 +30,15 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ##################################################################################
 
-teamspeakviewer plugin (v1.2.1) for B3
+teamspeakviewer plugin (v1.3) for B3
 
 Installation
 ------------
 
  * copy teamspeakviewer.py into b3/extplugins 
- * copy teamspeakviewer.xml into b3/extplugins/conf
+ * copy teamspeakviewer.ini into b3/extplugins/conf
  * folder /ts3 into into your b3 root directory 
- * edit teamspeakviewer.xml
+ * edit teamspeakviewer.ini
    modify teamspeak server address
    modify teamspeak server connection address
    modify query port
@@ -49,5 +48,5 @@ Installation
    
  
  * update your main b3 config file with :
-   <plugin name="teamspeakviewer" config="@b3/extplugins/conf/teamspeakviewer.xml"/>
+   <plugin name="teamspeakviewer" config="@b3/extplugins/conf/teamspeakviewer.ini"/>
 

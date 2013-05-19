@@ -102,7 +102,7 @@ class TeamspeakviewerPlugin(b3.plugin.Plugin):
             self._ts3pwd = self.config.get('settings', 'ts3pwd')
         except Exception, err:
             self.warning("Using default value %s for ts3pwd. %s" % (self._ts3pwd, err))
-        self.debug('ts3pwd : *******' % self._ts3pwd)
+        self.debug('ts3pwd : *******')
 
         try:
             self._interval = self.config.getint('settings', 'interval')

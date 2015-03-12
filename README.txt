@@ -1,5 +1,5 @@
 # teamspeakviewer plugin
-# Plugin for B3 (www.bigbrotherbot.com)
+# Plugin for B3 (www.bigbrotherbot.net)
 # www.ptitbigorneau.fr
 ###############################################################################
 # Python TS3 Library (python-ts3)
@@ -30,7 +30,7 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ##################################################################################
 
-teamspeakviewer plugin (v1.3) for B3
+teamspeakviewer plugin (v1.4) for B3
 
 Installation
 ------------
